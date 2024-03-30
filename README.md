@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -11,3 +12,6 @@ Currently, two official plugins are available:
 # Event-Management-Application
  -    [Hosted Event-Management-Application](https://eventslk.netlify.app/)
 >>>>>>> c76f677cc46ceabbb580ddb7f4cedf35dd7d0006
+=======
+# Event-Management-Application
+>>>>>>> 933974e72225ce110c0c4b79b8b773de4b7f3146
