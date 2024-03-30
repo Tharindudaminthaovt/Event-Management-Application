@@ -1,0 +1,165 @@
+.login-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid var(--dark-purple);
+    padding: 30px;
+    border-radius: 10px;
+    min-width: 350px;
+}
+
+.login h1 {
+    margin: 0;
+}
+
+.login-form {
+    min-width: 350px;
+}
+
+.login-form input{
+    width: 95%;
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--light-purple);
+    margin-bottom: 0px;
+}
+
+.login-form p {
+    margin: 20px 0px 0px 0px;
+    font-weight: 600;
+}
+
+.login-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.login-links a {
+    color: var(--dark-grey);
+}
+
+.login-google {
+    height: 20px;
+}
+
+.login-button {
+    margin-top: 30px;
+    width: 100%;
+    border: none;
+    background-color: var(--pink);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.login-button:hover {
+    background-color: transparent;
+    border: 2px solid var(--pink);
+    color: var(--pink);
+    transition: 0.3s ease-in;
+}
+
+.login-with-google {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    border-radius: 10px;
+    border: 0.5px solid var(--dark-grey);
+    background-color: white;
+    padding: 7px 0px 7px 0px;
+    font-weight: 600;
+}
+
+.login-with-google:hover {
+    background-color: var(--light-grey);
+    transition: 0.3s ease-in;
+}
+
+/* sign in page  */
+
+.show-password {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.show-password input {
+    height: 10px;
+}
+
+
+/* contact details page */
+
+.contactDetails {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contactDetails div {
+    margin: 0 auto;
+    border: 1px solid var(--dark-purple);
+    border-radius: 10px;
+    padding: 10px 50px 50px 50px;
+}
+
+.contactDetails div h1 {
+    margin: 0;
+}
+
+.contactDetails div input {
+    width: 100%;
+    outline: none;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid var(--light-purple);
+}
+
+.contactDetails div select {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid var(--light-purple);
+}
+
+.contactDetails div button {
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    background-color: var(--pink);
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.back-btn-details {
+    width: 40px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.back-btn-details img {
+    height: 30px;
+    transform: rotate(180deg);
+    margin-top: 5px;
+}

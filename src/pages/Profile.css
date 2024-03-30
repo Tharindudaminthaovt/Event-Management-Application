@@ -1,0 +1,175 @@
+.profile-details {
+    display: flex;
+}
+
+.profile-left-navigation {
+    display: flex;
+    flex-direction: column;
+    height: 84vh;
+    background-color: var(--light-grey);
+    border-radius: 0px 10px 0px 0px;
+    padding: 10px;
+    min-width: 400px;
+    justify-content: space-between;
+}
+
+.profile-left-navigation div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 3rem;
+}
+
+.profile-left-navigation button {
+    font-size: 17px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    color: var(--light-purple);
+    cursor: pointer;
+}
+
+.profile-signout {
+    color: var(--pink) !important;
+}
+
+.profile-right {
+    overflow-y: scroll;
+    height: 84vh;
+    flex: 1;
+}
+
+/* Account details page */
+
+.account-details {
+    padding: 40px;
+}
+
+.account-details img {
+    height: 40px;
+}
+
+.account-details-dt {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.account-details-dt div {
+    width: 400px;
+}
+
+.account-details button {
+    margin-top: 20px;
+    color: white;
+    background-color: var(--pink);
+    font-size: 15px;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+/* Bookings */
+
+.bookings {
+    padding-left: 40px;
+}
+
+.booking-item {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 0px 20px 0px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #ECECFE;
+    padding: 10px;
+}
+
+.booking-item h4 {
+    margin: 0;
+}
+
+.booking-item p {
+    margin: 10px 0px 0px 0px;
+}
+
+.booking-item button {
+    color: white;
+    background-color: var(--pink);
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+/* setting component */
+
+
+/* Add event component */
+
+.add-event h1 {
+    margin: 0px 0px 0px 20px;
+}
+
+.add-event-form {
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.add-event-form input {
+    min-width: 400px;
+}
+
+.add-event-tickets {
+    margin-left: 20px;
+}
+
+.add-event-tickets-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    font-weight: bold;
+    color: var(--dark-grey);
+}
+
+.add-event-tickets-plus {
+    display: flex;
+    align-items: center;
+}
+
+.add-event-tickets-plus button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--light-grey);
+    margin: 20px;
+    cursor: pointer;
+}
+
+.add-event-tickets-plus img {
+    height: 20px;
+}
+
+.add-event-request {
+    background-color: var(--pink);
+    color: white;
+    margin: 20px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.pendingreq-card {
+    margin-left: 20px;
+}

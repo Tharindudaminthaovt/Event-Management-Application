@@ -1,0 +1,107 @@
+.event--top-banner {
+    width: 100%;
+    height: 500px;
+}
+
+.event--top-poster {
+    width: 200px;
+    margin-top: -200px;
+    float: right;
+    position: relative;
+    margin-right: 100px;
+}
+
+.event h1 {
+    margin: 20px 0px 0px 40px;
+}
+
+.event span {
+    font-weight: 600;
+    color: black;
+    margin-right: 10px;
+}
+
+.event--top-details {
+    margin-left: 60px;
+}
+
+.event--top-details p {
+    color: var(--dark-grey);
+}
+
+.event--top-details-main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.event--top-details-2 {
+    max-width: 600px;
+}
+
+.event--top-details button {
+    color: white;
+    background-color: var(--pink);
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.event-artists-row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 3rem;
+}
+
+.event--mid-details {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.event--mid-details-artist {
+    text-align: center;
+}
+
+.event--mid-details-artist img {
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+}
+
+.event--mid-details-artist p {
+    margin: 0px;
+    color: var(--dark-purple);
+    font-weight: 600;
+}
+
+.event--mid-details-location {
+    height: 250px;
+    width: 500px;
+    background-color: var(--pink);
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+
+.event--mid-details-location div {
+    width: 100%;
+    height: 65%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.event--bottom-details {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.event--bottom-details li {
+    color: var(--dark-grey);
+}

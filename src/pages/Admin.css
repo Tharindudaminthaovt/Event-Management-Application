@@ -1,0 +1,55 @@
+.admin-top {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin-top button {
+    background-color: var(--pink);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.admin-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-nav button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.admin-components {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.admin-requests {
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+    margin: 20px;
+    background-color: #ECECFE;
+    border-radius: 20px;
+}
+
+.admin-requests button {
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: var(--pink);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,3 @@
+[submodule "event-management-system-mobile"]
+	path = event-management-system-mobile
+	url = https://github.com/Lovindu/event-management-system-mobile

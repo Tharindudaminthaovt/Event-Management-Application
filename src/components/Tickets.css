@@ -1,0 +1,144 @@
+.tickets-select {
+    width: 100%;
+    display: flex;
+    gap: 20rem;
+}
+
+.backbtn {
+    transform: rotate(180deg);
+    background-color: var(--pink);
+    border-radius: 50px;
+    margin-left: 10px;
+    height: 30px;
+}
+
+.ticket-selection-main {
+    margin-left: 40px;
+}
+
+.ticket-selection-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--dark-grey);
+    width: 600px;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    margin: 20px 0px 20px 0px;
+}
+
+.selected {
+    border: 2px solid var(--dark-purple);
+}
+
+.ticket-selection-card div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.plus-and-minus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+}
+
+.plus-and-minus img{
+    height: 15px;    
+}
+
+.select-tickets-count {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ticket-summery-details {
+    margin-top: 20px;
+    min-width: 380px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px dashed var(--dark-grey);
+}
+
+.ticket-summery-details-top p {
+    color: var(--dark-grey);
+}
+
+.ticket-summery-details-bottom div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ticket-selection-summery button {
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--pink);
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+/* TIcket confirmation page */
+
+.ticket-confirmation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-direction: row-reverse;
+}
+
+.ticket-confirmation-left {
+    border: 0.5px dashed black;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 400px;
+    height: 80%;
+}
+
+.ticket-c-left-top {
+    border-bottom: 1px dashed var(--dark-grey);
+}
+
+.ticket-c-left-top h3 {
+    margin: 0;
+}
+
+.ticket-c-left-top p {
+    color: var(--dark-grey);
+}
+
+.ticket-c-bold {
+    font-weight: 700;
+}
+
+.ticket-c-left-price {
+    border-bottom: 1px dashed var(--dark-grey);
+}
+
+.ticket-c-left-price div {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ticket-confirmation-left-main button{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--pink);
+    color: white;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}

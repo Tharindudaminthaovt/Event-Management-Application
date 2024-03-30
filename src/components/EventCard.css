@@ -1,0 +1,55 @@
+.eventcard {
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.eventcard--main {
+    position: relative;
+}
+
+.eventcard--main-details {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: -50px;
+    position: absolute;
+}
+
+.eventcard--main-date {
+    text-align: center;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px;
+    border-radius:10px;
+}
+
+.eventcard--main-rating {
+    margin-left: 80px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+}
+
+.eventcard--poster {
+    height: 250px;
+    width: 175px;
+}
+
+.eventcard h3 {
+    margin: 0px;
+    padding-left: 5px;
+    max-width: 175px;
+}
+
+.eventcard p {
+    margin: 0px;
+    padding-left: 5px;
+    width: 175px;
+}

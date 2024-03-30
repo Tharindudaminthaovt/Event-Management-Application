@@ -1,0 +1,39 @@
+.imageslider {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imageslider-img {
+    width: 95%;
+    height: 430px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.imageslider button {
+    border: none;
+    background-color: #8B8E9B;
+    height: 40px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.imageslider button img {
+    height: 20px;
+}
+
+.imageslider-back img{
+    transform: rotate(180deg);
+}

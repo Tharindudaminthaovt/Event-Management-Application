@@ -1,0 +1,17 @@
+.home--cards-row {
+    margin-left: 40px;
+}
+
+.home--cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    overflow-x: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; /* firefox */
+}
+
+.home--cards::-webkit-scrollbar {
+    display: none;
+}

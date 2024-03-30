@@ -1,0 +1,126 @@
+
+.container{
+  display: flex;
+  margin-top: 4rem;
+  width: 100%;
+  
+    
+}
+/*search bar---------------*/
+.navbar-search {
+    position: relative;
+    /* top: 3.2em; */
+    align-items: center;
+    flex-wrap: nowrap;
+    border: 1px solid var(--dark-grey);
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 35%;
+    width: 32em;
+  
+}
+
+  
+
+.navbar-search input {
+    border: none;
+    outline: none;
+    width: 90%;
+    padding-left: 10px;
+    color: var(--dark-grey);
+}
+
+.nav-search-icon {
+    height: 20px;
+}
+
+.nav-search-clear {
+    height: 15px;
+    cursor: pointer;
+}
+/*search bar end---------------*/
+
+.search-cards-right{
+    margin-left: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.filters-left {
+    flex: 0 0 19%; 
+    margin-left: 1rem;
+    
+    
+}
+.filters-left label{
+    color:#4B38AC;
+}
+.filters-left h2{
+font-weight: 500;
+}
+.date-filter,
+.price-filter{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    padding-left: 1.5em ;
+    padding-bottom: 1em;
+   
+
+}
+.filters-left button{
+   background: none;
+   border: none;
+   color:#FC8E94;
+   font-size: 1em;
+   cursor: pointer;
+}
+
+/* Square radio button--------------------*/
+.filters-left{
+    
+input[type='checkbox'] {
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Square radio buttons - checked state */
+  input[type='checkbox']:checked {
+    background-color: #4B38AC;
+  }
+  
+}
+
+
+.search--cards-row {
+    margin-left: 10px;
+    margin-bottom: 1rem
+}
+
+.search--cards {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    overflow-x: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* firefox */
+    margin-bottom: 1rem;
+  
+}
+
+.search-cards-right{
+    width: 100%;
+}
+.search--cards::-webkit-scrollbar {
+    display: none;
+}
